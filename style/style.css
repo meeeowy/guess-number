@@ -1,0 +1,47 @@
+:root{
+    background: url(image/galaxy.gif);
+}
+h1{
+    animation: welcome 10s infinite ease;
+    text-align: center;
+    background: rgba(0, 255, 255, 0.2);
+    text-shadow: 2px 2px 5px;
+    margin: 0% 0% 10% 0%;
+    padding: 3%;
+}
+@keyframes welcome {
+    0%{color: red;}
+    25%{color: yellow;}
+    50%{color: blue;}
+    75%{color: yellow;}
+    100%{color: red;}
+}
+input{
+    font-size: 24px;
+    padding: 3%;
+    margin: 5%;
+    position: relative;
+    left: 26%;
+    background: linear-gradient(to right, white, gray);
+    opacity: 0.5;
+    color: red;
+    border-radius: 30%;
+    border: red solid 2px;
+    display: block;
+}
+button{
+    position: relative;
+    left: 37%;
+    margin: 5%;
+    padding:2%;
+    background: linear-gradient(to right, yellow, aqua);
+    display: block;
+}
+p{
+    font-size: 20px;
+    background-color: rgba(0, 255, 255, 0.5);
+    color: red;
+    display: none;
+    text-align: center;
+    padding: 1%;
+}
